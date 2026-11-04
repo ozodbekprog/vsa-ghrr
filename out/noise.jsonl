@@ -1,0 +1,8 @@
+{"suite":"noise","system":"fhrr","D":128,"m":0,"diag":0,"M":16,"trials":20,"acc":0.496875,"acc_sd":0.000000,"margin":0.000000,"extra_i":0,"extra_f":-6.000000,"note":"snr_db"}
+{"suite":"noise","system":"fhrr","D":128,"m":0,"diag":0,"M":16,"trials":20,"acc":0.650000,"acc_sd":0.000000,"margin":0.000000,"extra_i":0,"extra_f":-3.000000,"note":"snr_db"}
+{"suite":"noise","system":"fhrr","D":128,"m":0,"diag":0,"M":16,"trials":20,"acc":0.868750,"acc_sd":0.000000,"margin":0.000000,"extra_i":0,"extra_f":0.000000,"note":"snr_db"}
+{"suite":"noise","system":"fhrr","D":128,"m":0,"diag":0,"M":16,"trials":20,"acc":0.918750,"acc_sd":0.000000,"margin":0.000000,"extra_i":0,"extra_f":3.000000,"note":"snr_db"}
+{"suite":"noise","system":"fhrr","D":128,"m":0,"diag":0,"M":16,"trials":20,"acc":0.971875,"acc_sd":0.000000,"margin":0.000000,"extra_i":0,"extra_f":6.000000,"note":"snr_db"}
+{"suite":"noise","system":"fhrr","D":128,"m":0,"diag":0,"M":16,"trials":20,"acc":0.978125,"acc_sd":0.000000,"margin":0.000000,"extra_i":0,"extra_f":10.000000,"note":"snr_db"}
+{"suite":"noise","system":"fhrr","D":128,"m":0,"diag":0,"M":16,"trials":20,"acc":0.968750,"acc_sd":0.000000,"margin":0.000000,"extra_i":0,"extra_f":20.000000,"note":"snr_db"}
+{"suite":"noise","system":"fhrr","D":128,"m":0,"diag":0,"M":16,"trials":20,"acc":0.975000,"acc_sd":0.000000,"margin":0.000000,"extra_i":0,"extra_f":40.000000,"note":"snr_db"}

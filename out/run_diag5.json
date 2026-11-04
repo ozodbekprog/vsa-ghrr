@@ -1,0 +1,43 @@
+{
+  "tag": "",
+  "model": "/home/tony/models/qwen05",
+  "args": {
+    "model": "/home/tony/models/qwen05",
+    "out": "out/run_diag5.json",
+    "max_tokens": 40000,
+    "steps": 300,
+    "diagonality": 0.5,
+    "block_size": 2,
+    "lr_lora": 0.0002,
+    "lr_gen": 0.01,
+    "device": "cuda",
+    "skip_train": false,
+    "tag": ""
+  },
+  "stages": {
+    "baseline": {
+      "ppl": 15.744591864863077,
+      "tokens": 40512,
+      "seconds": 3.8355472087860107
+    },
+    "retrofit_no_train": {
+      "ppl": 15.745346385528828,
+      "tokens": 40512,
+      "seconds": 5.654465436935425,
+      "delta_vs_baseline": 0.0007545206657511017
+    },
+    "train": {
+      "steps": 300,
+      "first_loss": 3.1331818103790283,
+      "last_loss": 2.5978758692741395
+    },
+    "after_lora": {
+      "ppl": 11.72146572413497,
+      "tokens": 40512,
+      "seconds": 6.19973349571228,
+      "delta_vs_baseline": -4.023126140728108
+    }
+  },
+  "total_params": 494032768,
+  "binder_params": 128
+}

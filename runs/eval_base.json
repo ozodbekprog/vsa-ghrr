@@ -1,0 +1,21 @@
+{
+  "model": "baseline",
+  "ckpt": "runs/base_3000.pt",
+  "split": "test",
+  "step": 3000,
+  "seq": 512,
+  "units_in_split": 921761,
+  "units_consumed": 921761,
+  "bytes_scaled": 3962304.0,
+  "n_units": 921760,
+  "ce_sum": 3737060.501586914,
+  "ce_per_unit": 4.05426629663569,
+  "ppl": 57.64285472076199,
+  "bpb": 1.3606827374026482,
+  "wall_s": 5.425826039001549,
+  "units_per_s": 169883.81001791582,
+  "semantic": {
+    "status": "skipped",
+    "reason": "skipped: baseline embeddings live in BPE token space; mapping the word list through the BPE tokenizer is out of scope"
+  }
+}

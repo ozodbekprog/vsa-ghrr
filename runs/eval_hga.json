@@ -1,0 +1,38 @@
+{
+  "model": "hga",
+  "ckpt": "runs/hga_3000.pt",
+  "split": "test",
+  "step": 3000,
+  "seq": 512,
+  "units_in_split": 644357,
+  "units_consumed": 644357,
+  "bytes_scaled": 3962304.0,
+  "n_units": 644356,
+  "ce_sum": 2330930.73248291,
+  "ce_per_unit": 3.617457946357154,
+  "ppl": 37.242774257965664,
+  "bpb": 0.8487037361113063,
+  "wall_s": 4.1167402069986565,
+  "units_per_s": 156520.9285989346,
+  "semantic": {
+    "status": "ok",
+    "words": [
+      "olma",
+      "meva",
+      "stol",
+      "daraxt",
+      "non",
+      "suv",
+      "kitob",
+      "maktab"
+    ],
+    "cosines": {
+      "olma_meva": 0.5902011394500732,
+      "olma_daraxt": 0.5396000742912292,
+      "olma_stol": 0.5442600846290588
+    },
+    "fruit_closer_than_table": true,
+    "tree_closer_than_table": false,
+    "pass": false
+  }
+}

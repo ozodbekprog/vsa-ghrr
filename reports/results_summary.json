@@ -1,0 +1,56 @@
+{
+  "machine": "DGX Spark (spark-e2aa), NVIDIA GB10, Ubuntu 24.04 aarch64",
+  "stack": {
+    "python": "3.12",
+    "torch": "2.9.1+cu130",
+    "transformers": "4.46.3",
+    "gcc": "13.3"
+  },
+  "vsa_tests": {
+    "cxx": "39/39",
+    "attention": "11/11"
+  },
+  "retrofit": {
+    "run_diag10.json": {
+      "baseline_ppl": 15.7446,
+      "retrofit_ppl": 15.7453,
+      "after_lora_ppl": 11.2539,
+      "steps": 300,
+      "binder_params": 128,
+      "diagonality": 1.0,
+      "lr_gen": 0.01
+    },
+    "run_diag5.json": {
+      "baseline_ppl": 15.7446,
+      "retrofit_ppl": 15.7453,
+      "after_lora_ppl": 11.7215,
+      "steps": 300,
+      "binder_params": 128,
+      "diagonality": 0.5,
+      "lr_gen": 0.01
+    },
+    "run_diag5_lr3.json": {
+      "baseline_ppl": 15.7446,
+      "retrofit_ppl": 15.7453,
+      "after_lora_ppl": 11.3569,
+      "steps": 300,
+      "binder_params": 128,
+      "diagonality": 0.5,
+      "lr_gen": 0.001
+    },
+    "run_orig.json": {
+      "baseline_ppl": 15.7446,
+      "retrofit_ppl": null,
+      "after_lora_ppl": 11.2681,
+      "steps": 300,
+      "binder_params": 0,
+      "diagonality": 0.5,
+      "lr_gen": 0.01
+    }
+  },
+  "verification": {
+    "logit_max_abs_diff_diag1": 1.49e-07,
+    "logit_max_abs_diff_diag05": 1.49e-07,
+    "retrofit_ppl_delta": 0.0008
+  }
+}

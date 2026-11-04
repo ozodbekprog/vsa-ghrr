@@ -1,0 +1,26 @@
+{
+  "bytes": {
+    "test": 3962304,
+    "val": 3849834,
+    "train": 359448666
+  },
+  "units": {
+    "test": 644357,
+    "val": 631863,
+    "train": 59146682
+  },
+  "bpe_units": {
+    "test": 921761,
+    "val": 897213,
+    "train": 84079495
+  },
+  "word_vocab": 16000,
+  "bpe_vocab": 16000,
+  "docs": {
+    "test": 2424,
+    "val": 2424,
+    "train": 237608
+  },
+  "seed": 20261104,
+  "elapsed_s": 226.4
+}
